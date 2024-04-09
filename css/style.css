@@ -200,7 +200,7 @@
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover; */
-  background-color: #181d38;
+  background-color: #181d38 !important;
 }
 
 .page-header-inner {
@@ -584,3 +584,68 @@
 }
 
 /* News End */
+/* Gallery */
+
+.GalCon h1 {
+  font-family: "Raleway";
+  font-weight: 900;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-size: 50px;
+}
+hr {
+  border: 0;
+  height: 3px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0)
+  );
+}
+
+.thumbnail {
+  margin-bottom: 6px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.blur {
+  transform: scale(0.9);
+  opacity: 0.6;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+
+.myFooter {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+/* Gallery */
+
+/* Table Start */
+
+table {
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  font-family: "Tiro Devanagari Marathi" !important;
+  font-weight: 500;
+  font-size: 1.2rem !important;
+  color: #181d38;
+}
+
+/* Table End */
+
+/*  */
+.mivi {
+  line-height: 30px;
+  letter-spacing: -0.01em;
+  font-family: "Tiro Devanagari Marathi" !important;
+  text-align: justify;
+  color: #181d38;
+}
+/*  */

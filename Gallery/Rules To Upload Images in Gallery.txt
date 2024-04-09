@@ -1,0 +1,4 @@
+1. Extension of Image = .png
+
+2. Image name = Image
+
