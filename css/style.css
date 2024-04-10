@@ -641,11 +641,13 @@ table {
 /* Table End */
 
 /*  */
-.mivi {
+#mivi {
   line-height: 30px;
   letter-spacing: -0.01em;
   font-family: "Tiro Devanagari Marathi" !important;
+  margin-top: 10px;
   text-align: justify;
-  color: #181d38;
+  font-size: 1.2rem;
+  color: #555555;
 }
 /*  */
